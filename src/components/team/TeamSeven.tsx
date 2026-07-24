@@ -1,0 +1,88 @@
+import { Link } from "react-router-dom";
+
+export default function TeamSeven() {
+  return (
+    <>
+      {/* <!-- team-area-start --> */}
+      <div className="it-team-3-area gray-bg pt-125 pb-95">
+        <div className="container">
+          <div className="mb-70">
+            <div className="row align-items-center">
+              <div className="col-xl-8 col-lg-8 col-md-8">
+                <div className="it-team-3-left">
+                  <h4 className="it-section-title"> Top Writer</h4>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-4">
+                <div className="it-team-3-btn text-md-end">
+                  <Link to="/shop" className="it-btn-yellow theme-bg border-radius-0">
+                    <span>
+                      <span className="text-1">View All Book</span>
+                      <span className="text-2">View All Book</span>
+                    </span>
+                    <i>
+                      <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                      </svg>
+                    </i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".3s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/team/team-14-1.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="/shop-details">Henry Cooper</Link></h4>
+                  <span>1,50 Books</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".5s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/team/team-14-2.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="/shop-details">Tammy Mack</Link></h4>
+                  <span>1,50 Books</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".7s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/team/team-14-3.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="/shop-details">Babette McMullen</Link></h4>
+                  <span>1,50 Books</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow itfadeUp" data-wow-duration=".9s"
+              data-wow-delay=".9s">
+              <div className="it-team-3-item text-center mb-35">
+                <div className="it-team-3-thumb">
+                  <img src="assets/img/team/team-14-4.png" alt="" />
+                </div>
+                <div className="it-team-3-content">
+                  <h4 className="it-team-3-title"><Link className="border-line" to="/shop-details">Barbara Edwards</Link></h4>
+                  <span>1,50 Books</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- team-area-end --> */}
+    </>
+  )
+}
