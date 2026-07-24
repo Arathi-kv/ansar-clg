@@ -1,9 +1,8 @@
  
-import NiceSelect from "@/ui/NiceSelect";
 import { Link } from "react-router-dom";
 
 export default function Coursesv1Area() {
-  const selectHandler = (e: any) => { return e; };
+ 
 
   return (
     <>

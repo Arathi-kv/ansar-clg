@@ -1,5 +1,5 @@
 
-const home_1 = "/assets/img/menu/home-3.jpg";
+
 
 interface DataType {
   id: number;

@@ -7,7 +7,6 @@ export default function EventFive() {
       {/* <!-- language-area-start --> */}
       <section className="it-language-area p-relative pt-130 pb-130">
         <img className="it-language-shape-2" src="assets/img/shape/language-5-2.png" alt="" />
-        <img className="it-language-shape-3" src="assets/img/shape/about-1-1.png" alt="" />
         <img className="it-language-shape-4" data-parallax='{"x": 200, "smoothness": 30}' src="assets/img/shape/language-5-3.png" alt="" />
         <div className="container">
           <div className="row">

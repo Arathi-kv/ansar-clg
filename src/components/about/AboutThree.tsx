@@ -7,7 +7,6 @@ export default function AboutThree() {
     <>
       {/* <!-- about-area-start --> */}
       <section className="it-about-2-area z-index-1 pt-130 pb-130">
-        <img className="it-about-2-shape-3" src="assets/img/shape/about-3-3.png" alt="" />
         <img className="it-about-2-shape-4" src="assets/img/shape/about-3-4.png" alt="" />
         <div className="container">
           <div className="row align-items-center">

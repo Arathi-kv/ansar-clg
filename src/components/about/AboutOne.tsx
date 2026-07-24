@@ -17,7 +17,7 @@ export default function AboutOne() {
                   <div className="col-lg-6 col-md-6">
                     <div className="it-about-thumb pl-15 z-index-1 border-radius-20">
                       <img src="assets/img/about/about-1-1.jpg" alt="" />
-                      <img className="it-about-shape-1" data-parallax='{"y": -100, "smoothness": 30}' src="assets/img/shape/about-1-1.png" alt="" />
+                      
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">

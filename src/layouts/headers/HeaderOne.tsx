@@ -3,12 +3,11 @@ import { useState } from "react";
 import UseSticky from "@/hooks/UseSticky";
 import OffCanvas from "@/components/common/OffCanvas";
 import { Link } from "react-router-dom";
-import NiceSelect from "@/ui/NiceSelect";
 import Navmenu from "./Navmenu";
 
 
 export default function HeaderOne() {
-  const selectHandler = (e: any) => { return e; };
+  
   const { sticky } = UseSticky()
   const [offCanvasOpen, setOffCanvasOpen] = useState(false);
   return (
