@@ -14,294 +14,19 @@ export default function Coursesv1Area() {
       
       <div className="it-course-area it-course-inner-v1-style pt-130 pb-130">
         <div className="container">
-    {/* ===================== PG COURSES ===================== */} 
+   
+         {/* ===================== Hs COURSES ===================== */} 
           <div className="it-section-title-box text-center mb-50">
-            <span className="it-section-subtitle">
-                Higher Secondary
-            </span>
-            <h2 className="it-section-title">
-                Higher Secondary Courses
-            </h2>
-        </div>
-         <div className="row gx-35">
-        <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="it-course-item mb-35">
-               
-                <div className="it-course-content p-relative">
-                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">Commerce</Link></h5>
-                  <div className="it-course-rating mb-10">
-                    <div>
-                      <span>Business, Commerce & Finance</span>
-                    </div>
-                  </div>
-                 
-                  <div className="it-course-btn">
-                    <Link to="/contact-us" className="it-btn-yellow w-100">
-                      <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
-                      </span>
-                      <i>
-                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
-                        </svg>
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-             <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="it-course-item mb-35">
-               
-                <div className="it-course-content p-relative">
-                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">Humanities</Link></h5>
-                  <div className="it-course-rating mb-10">
-                    <div>
-                      <span>History, Languages & Social Sciences</span>
-                    </div>
-                  </div>
-                 
-                  <div className="it-course-btn">
-                   <Link to="/contact-us" className="it-btn-yellow w-100">
-                      <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
-                      </span>
-                      <i>
-                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
-                        </svg>
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-
-        
-
-
-      {/* ===================== PG COURSES ===================== */} 
-          <div className="it-section-title-box text-center mb-50">
-            <span className="it-section-subtitle">
-                UG COURSES
-            </span>
-            <h2 className="it-section-title">
-                Undergraduate (UG) Programmes
-            </h2>
-        </div>
-          <div className="row gx-35">
-            <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="it-course-item mb-35">
-               
-                <div className="it-course-content p-relative">
-                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3"> B.A English </Link></h5>
-                  <div className="it-course-rating mb-10">
-                    <div>
-                      <span>Master Language, Literature & Communication</span>
-                    </div>
-                  </div>
-                 
-                  <div className="it-course-btn">
-                   <Link to="/contact-us" className="it-btn-yellow w-100">
-                      <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
-                      </span>
-                      <i>
-                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
-                        </svg>
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="it-course-item mb-35">
-                
-                <div className="it-course-content p-relative">
-                 
-                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3"> B.A Sociology </Link></h5>
-                  <div className="it-course-rating mb-10">
-                    <div>
-                      <span>Study Society, Culture & Human Behavior</span>
-                    </div>
-                  </div>
-                  
-                  <div className="it-course-btn">
-                   <Link to="/contact-us" className="it-btn-yellow w-100">
-                      <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
-                      </span>
-                      <i>
-                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
-                        </svg>
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="it-course-item mb-35">
-                
-                <div className="it-course-content p-relative">
-                 
-                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3"> B.A Economics</Link></h5>
-                  <div className="it-course-rating mb-10">
-                    <div>
-                      <span>Study Economy, Markets & Development</span>
-                    </div>
-                  </div>
-                  
-                  <div className="it-course-btn">
-                   <Link to="/contact-us" className="it-btn-yellow w-100">
-                      <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
-                      </span>
-                      <i>
-                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
-                        </svg>
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="it-course-item mb-35">
-                
-                <div className="it-course-content p-relative">
-                 
-                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">B.A History</Link></h5>
-                  <div className="it-course-rating mb-10">
-                    <div>
-                     
-                      <span>History, Heritage & Civilizations</span>
-                    </div>
-                  </div>
-                  
-                  <div className="it-course-btn">
-                   <Link to="/contact-us" className="it-btn-yellow w-100">
-                      <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
-                      </span>
-                      <i>
-                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
-                        </svg>
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="it-course-item mb-35">
-                
-                <div className="it-course-content p-relative">
-                  
-                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3"> B.A Hindi </Link></h5>
-                  <div className="it-course-rating mb-10">
-                    <div>
-                      <span>Hindi Language & Literature</span>
-                    </div>
-                  </div>
-                  
-                  <div className="it-course-btn">
-                   <Link to="/contact-us" className="it-btn-yellow w-100">
-                      <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
-                      </span>
-                      <i>
-                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
-                        </svg>
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="it-course-item mb-35">
-               
-                <div className="it-course-content p-relative">
-                  
-                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">B.Com</Link></h5>
-                  <div className="it-course-rating mb-10">
-                    <div>
-                      <span>Commerce, Finance & Business</span>
-                    </div>
-                  </div>
-                  
-                  <div className="it-course-btn">
-                   <Link to="/contact-us" className="it-btn-yellow w-100">
-                      <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
-                      </span>
-                      <i>
-                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
-                        </svg>
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="it-course-item mb-35">
-               
-                <div className="it-course-content p-relative">
-                 
-                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">B.B.A</Link></h5>
-                  <div className="it-course-rating mb-10">
-                    <div>
-                     
-                      <span>Business, Management & Leadership</span>
-                    </div>
-                  </div>
-                 
-                  <div className="it-course-btn">
-                   <Link to="/contact-us" className="it-btn-yellow w-100">
-                      <span>
-                        <span className="text-1">Apply Now</span>
-                        <span className="text-2">Apply Now</span>
-                      </span>
-                      <i>
-                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
-                        </svg>
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-        {/* ===================== PG COURSES ===================== */}
-
-            <div className="it-section-title-box text-center mb-50">
-            <span className="it-section-subtitle">
+             <span className="it-section-subtitle">
                 PG COURSES
             </span>
             <h2 className="it-section-title">
                 Postgraduate (PG) Programmes
             </h2>
         </div>
-            <div className="col-xl-4 col-lg-6 col-md-6">
+         <div className="row gx-35">
+        
+             <div className="col-xl-4 col-lg-6 col-md-6">
               <div className="it-course-item mb-35">
                 
                 <div className="it-course-content p-relative">
@@ -530,7 +255,313 @@ export default function Coursesv1Area() {
                 </div>
               </div>
             </div>
- {/* ===================== PG COURSES ===================== */}
+            </div>
+
+
+      {/* ===================== UG COURSES ===================== */} 
+          <div className="it-section-title-box text-center mb-50">
+            <span className="it-section-subtitle">
+                UG COURSES
+            </span>
+            <h2 className="it-section-title">
+                Undergraduate (UG) Programmes
+            </h2>
+        </div>
+          <div className="row gx-35">
+            <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+               
+                <div className="it-course-content p-relative">
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3"> B.A English </Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                      <span>Master Language, Literature & Communication</span>
+                    </div>
+                  </div>
+                 
+                  <div className="it-course-btn">
+                   <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+                
+                <div className="it-course-content p-relative">
+                 
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3"> B.A Sociology </Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                      <span>Study Society, Culture & Human Behavior</span>
+                    </div>
+                  </div>
+                  
+                  <div className="it-course-btn">
+                   <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+                
+                <div className="it-course-content p-relative">
+                 
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3"> B.A Economics</Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                      <span>Study Economy, Markets & Development</span>
+                    </div>
+                  </div>
+                  
+                  <div className="it-course-btn">
+                   <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+                
+                <div className="it-course-content p-relative">
+                 
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">B.A History</Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                     
+                      <span>History, Heritage & Civilizations</span>
+                    </div>
+                  </div>
+                  
+                  <div className="it-course-btn">
+                   <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+                
+                <div className="it-course-content p-relative">
+                  
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3"> B.A Hindi </Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                      <span>Hindi Language & Literature</span>
+                    </div>
+                  </div>
+                  
+                  <div className="it-course-btn">
+                   <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+               
+                <div className="it-course-content p-relative">
+                  
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">B.Com</Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                      <span>Commerce, Finance & Business</span>
+                    </div>
+                  </div>
+                  
+                  <div className="it-course-btn">
+                   <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+               
+                <div className="it-course-content p-relative">
+                 
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">B.B.A</Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                     
+                      <span>Business, Management & Leadership</span>
+                    </div>
+                  </div>
+                 
+                  <div className="it-course-btn">
+                   <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+       
+             {/* ===================== Hs COURSES ===================== */} 
+          <div className="it-section-title-box text-center mb-50">
+            <span className="it-section-subtitle">
+                Higher Secondary
+            </span>
+            <h2 className="it-section-title">
+                Higher Secondary Courses
+            </h2>
+        </div>
+         <div className="row gx-35">
+        <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+               
+                <div className="it-course-content p-relative">
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">Commerce</Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                      <span>Business, Commerce & Finance</span>
+                    </div>
+                  </div>
+                 
+                  <div className="it-course-btn">
+                    <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+               
+                <div className="it-course-content p-relative">
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">Humanities</Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                      <span>History, Languages & Social Sciences</span>
+                    </div>
+                  </div>
+                 
+                  <div className="it-course-btn">
+                   <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-md-6">
+              <div className="it-course-item mb-35">
+               
+                <div className="it-course-content p-relative">
+                  <h5 className="it-course-title mb-20"><Link className="border-line" to="/courses-details-v3">NIOS</Link></h5>
+                  <div className="it-course-rating mb-10">
+                    <div>
+                      <span>SSLC & PLUS Two</span>
+                    </div>
+                  </div>
+                 
+                  <div className="it-course-btn">
+                   <Link to="/contact-us" className="it-btn-yellow w-100">
+                      <span>
+                        <span className="text-1">Apply Now</span>
+                        <span className="text-2">Apply Now</span>
+                      </span>
+                      <i>
+                        <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M15.0544 8.1364C15.4058 7.78492 15.4058 7.21508 15.0544 6.8636L9.3268 1.13604C8.97533 0.784567 8.40548 0.784567 8.05401 1.13604C7.70254 1.48751 7.70254 2.05736 8.05401 2.40883L13.1452 7.5L8.05401 12.5912C7.70254 12.9426 7.70254 13.5125 8.05401 13.864C8.40548 14.2154 8.97533 14.2154 9.3268 13.864L15.0544 8.1364ZM0.417969 7.5V8.4H14.418V7.5V6.6H0.417969V7.5Z" fill="currentcolor" />
+                        </svg>
+                      </i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+ {/* ===================== DIPLOMA COURSES ===================== */}
 
             <div className="it-section-title-box text-center mb-50">
             <span className="it-section-subtitle">

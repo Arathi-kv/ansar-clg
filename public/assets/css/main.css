@@ -25931,7 +25931,7 @@ input[type=radio] {
 .it-header-menu ul {
   display: flex;
   align-items: center;
-  gap: 5px; /* Adjust the value as needed */
+  gap: 0px; /* Adjust the value as needed */
 }
 
 
