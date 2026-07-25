@@ -26003,4 +26003,6 @@ input[type=radio] {
     display: none;
 }
 
-
+.wishlist-btn {
+  display: none !important;
+}
