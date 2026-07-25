@@ -2,7 +2,7 @@ export default function NewsletterThree() {
   return (
     <>
       {/* <!-- Location Map Start --> */}
-      <div className="it-newsletter-area pb-150">
+      <div className="it-newsletter-area pb-160">
         <div className="container">
           <div
             className="wow itfadeUp overflow-hidden"
