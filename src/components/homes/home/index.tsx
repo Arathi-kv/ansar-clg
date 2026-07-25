@@ -8,7 +8,7 @@ import CourseThree from "@/components/course/CourseThree";
 import EventFive from "@/components/event/EventFive";
 import FeaturesThree from "@/components/features/FeaturesThree";
 import HeroThree from "@/components/hero/HeroThree";
-import NewsletterThree from "@/components/newsletter/NewsletterThree";
+
 
 
 
@@ -25,10 +25,7 @@ export default function University() {
         <CourseThree />
          <EventFive></EventFive>
         <CampusThree />
-       
-       
-        
-        <NewsletterThree />               
+ 
       </main>
       <FooterThree />
       <BackToTop />

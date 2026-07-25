@@ -1,6 +1,5 @@
 import Breadcrumb from "@/components/breadcrumb/Breadcrumb";
 import Coursesv1Area from "@/components/course/Coursesv1Area";
-import NewsletterThree from "@/components/newsletter/NewsletterThree";
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderInner from "@/layouts/headers/HeaderInner";
 import Wrapper from "@/layouts/Wrapper";
@@ -14,7 +13,7 @@ export default function Courses() {
       <main>
         <Breadcrumb title="Courses" subtitle="Courses" breadcrumb_img="/assets/img/breadcrumb/course-v1-breadcrumb.jpg" />
         <Coursesv1Area />        
-        <NewsletterThree style_2={true} />
+        
       </main>
       <FooterThree />
       <BackToTop />
