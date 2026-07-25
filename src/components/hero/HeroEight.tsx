@@ -43,7 +43,7 @@ export default function HeroEight() {
                       </svg>
                     </i>
                   </Link>
-                  <Link to="/sign-up" className="it-btn-yellow">
+                  <Link to="/contact-us" className="it-btn-yellow">
                     <span>
                       <span className="text-1">Register Now</span>
                       <span className="text-2">Register Now</span>

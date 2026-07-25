@@ -47,7 +47,7 @@ export default function HeaderOne() {
               <div className="col-xl-8 col-lg-7 col-md-8 col-sm-7 d-none d-sm-block">
                 <div className="it-header-top-right-action d-flex align-items-center justify-content-end">
                   <div className="it-header-top-login-box d-none d-sm-block">
-                    <a href="#">Register</a>
+                    <a href="/contact-us">Register</a>
                   </div>
                   <div className="it-header-top-social-box align-items-center d-none d-md-flex">
                     <span>Follow On:</span>
