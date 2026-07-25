@@ -468,7 +468,7 @@ export default function CourseThree() {
           <div className="row">
             <div className="col-12">
               <div className="it-team-btn text-center mt-45">
-                <Link to="/courses-v1" className="it-btn-yellow border-radius-100">
+                <Link to="/courses" className="it-btn-yellow border-radius-100">
                   <span>
                     <span className="text-1">View All Courses</span>
                     <span className="text-2">View All Courses</span>
