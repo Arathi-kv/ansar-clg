@@ -1,5 +1,4 @@
 import BreadcrumbZoomMetting from "@/components/breadcrumb/BreadcrumbZoomMetting";
-import NewsletterThree from "@/components/newsletter/NewsletterThree";
 import ZoomMettingArea from "@/components/zoom-metting/ZoomMettingArea";
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderInner from "@/layouts/headers/HeaderInner";
@@ -13,7 +12,7 @@ export default function ZoomMetting() {
       <main>
         <BreadcrumbZoomMetting />
         <ZoomMettingArea />
-        <NewsletterThree style_2={true} />
+      
       </main>
       <FooterThree />
       <BackToTop />

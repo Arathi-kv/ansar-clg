@@ -5,7 +5,7 @@ import BlogDetailsLeftSidebarArea from "@/components/blog/BlogDetailsLeftSidebar
 import BlogSimilar from "@/components/blog/BlogSimilar";
 import BreadcrumbBlogSidebar from "@/components/breadcrumb/BreadcrumbBlogSidebar";
 import BackToTop from "@/components/common/BackToTop";
-import NewsletterThree from "@/components/newsletter/NewsletterThree";
+
 
 
 export default function BlogDetailsLeftSidebar() {
@@ -16,7 +16,7 @@ export default function BlogDetailsLeftSidebar() {
         <BreadcrumbBlogSidebar title="A Step-by-Step Guide to Building <br> Better User Experiences" style_2={true} />
         <BlogDetailsLeftSidebarArea />
         <BlogSimilar />
-        <NewsletterThree style_2={true} />
+       
       </main>
       <FooterThree />
       <BackToTop />

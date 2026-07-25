@@ -1,4 +1,12 @@
-export default function NewsletterThree() {
+interface NewsletterThreeProps {
+  style_2?: boolean;
+}
+
+export default function NewsletterThree({
+  style_2,
+}: NewsletterThreeProps) {
+  void style_2; // Prevents "unused variable" warning
+
   return (
     <>
       {/* <!-- Location Map Start --> */}
