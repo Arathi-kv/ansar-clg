@@ -1,6 +1,5 @@
 import BreadcrumbCareer from "@/components/breadcrumb/BreadcrumbCareer";
 import CareerArea from "@/components/career/CareerArea";
-import NewsletterThree from "@/components/newsletter/NewsletterThree";
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderInner from "@/layouts/headers/HeaderInner";
 import Wrapper from "@/layouts/Wrapper";
@@ -13,7 +12,7 @@ export default function Career() {
       <main>
         <BreadcrumbCareer />
         <CareerArea />
-        <NewsletterThree style_2={true} />
+       
       </main>
       <FooterThree />
       <BackToTop />

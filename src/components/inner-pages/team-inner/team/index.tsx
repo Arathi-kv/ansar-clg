@@ -1,5 +1,4 @@
 import BreadcrumbTeam from "@/components/breadcrumb/BreadcrumbTeam";
-import NewsletterThree from "@/components/newsletter/NewsletterThree";
 import TeamArea from "@/components/team/TeamArea";
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderInner from "@/layouts/headers/HeaderInner";
@@ -13,7 +12,7 @@ export default function Team() {
       <main>
         <BreadcrumbTeam title="Instructor" subtitle="Instructor" />
         <TeamArea />
-        <NewsletterThree style_2={true} />
+       
       </main>
       <FooterThree />
       <BackToTop />
