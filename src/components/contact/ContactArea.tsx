@@ -59,7 +59,7 @@ export default function ContactArea() {
                           <path d="M8.155 9.79932C7.51711 9.79932 7 10.3164 7 10.9543C7 11.5922 7.51711 12.1093 8.155 12.1093H20.475C21.1129 12.1093 21.63 11.5922 21.63 10.9543C21.63 10.3164 21.1129 9.79932 20.475 9.79932H8.155Z" fill="#1F2432" />
                         </svg>
                       </span>
-                        <a href="mailto:ansarcollege4women@gmail.com"  style={{ color: "#03594e", textDecoration: "none" }}>ansarcollege4women@gmail.com</a>
+                        <a href="mailto:info@ansarcollege.in"  style={{ color: "#03594e", textDecoration: "none" }}>info@ansarcollege.in</a>
                     </li>
                   </ul>
                 </div>

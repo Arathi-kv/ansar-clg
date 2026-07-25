@@ -62,7 +62,7 @@ export default function FooterThree() {
                         <ul>
                           <li><span>Phone:</span><a href="tel:+917736101353">+91 7736 1013 53</a></li>
                            <li><span>Phone:</span><a href="tel:+919895453399 ">+91 9895 4533 99 </a></li>
-                          <li><span>Email:</span><a href="mailto:ansarcollege4women@gmail.com">ansarcollege4women@gmail.com</a></li>
+                          <li><span>Email:</span><a href="mailto:info@ansarcollege.in">info@ansarcollege.in</a></li>
                           <li><span>Location:</span>Uppungal Road, Near KSEB Sub Station, Punnayurkulam P.O.<br />Thrissur Dt. Kerala – 679561</li>
                           
                         </ul>

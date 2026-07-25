@@ -41,7 +41,7 @@ export default function OffCanvas({ offCanvasOpen, setOffCanvasOpen }: OffCanvas
               </div>
               <div className="itoffcanvas__info-address">
                 <span>Email</span>
-                <a href="mailto:ansarcollege4women@gmail.com" className="border-line">ansarcollege4women@gmail.com</a>
+                <a href="mailto:info@ansarcollege.in" className="border-line">info@ansarcollege.in</a>
               </div>
             </div>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">
