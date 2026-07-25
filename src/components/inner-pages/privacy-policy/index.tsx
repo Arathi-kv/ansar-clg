@@ -1,5 +1,4 @@
 import BreadcrumbBlogSidebar from "@/components/breadcrumb/BreadcrumbBlogSidebar";
-import NewsletterThree from "@/components/newsletter/NewsletterThree";
 import PrivacyPolicyArea from "@/components/privacy-policy/PrivacyPolicyArea";
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderInner from "@/layouts/headers/HeaderInner";
@@ -14,7 +13,6 @@ export default function PrivacyPolicy() {
       <main>
         <BreadcrumbBlogSidebar title="Privacy Policy" subtitle2="Privacy Policy" style_3={true} />
         <PrivacyPolicyArea />       
-        <NewsletterThree style_2={true} />
       </main>
       <FooterThree />
       <BackToTop />

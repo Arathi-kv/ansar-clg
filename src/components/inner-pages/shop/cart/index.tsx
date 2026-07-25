@@ -1,6 +1,5 @@
 import Breadcrumb from "@/components/breadcrumb/Breadcrumb";
 import CartArea from "@/components/cart/CartArea";
-import NewsletterThree from "@/components/newsletter/NewsletterThree";
 import FooterThree from "@/layouts/footers/FooterThree";
 import HeaderInner from "@/layouts/headers/HeaderInner";
 import Wrapper from "@/layouts/Wrapper";
@@ -13,7 +12,6 @@ export default function Cart() {
       <main>
         <Breadcrumb title="Cart" subtitle="Cart" breadcrumb_img="/assets/img/breadcrumb/course-v4-breadcrumb.jpg" />
         <CartArea />
-        <NewsletterThree style_2={true} />
       </main>
       <FooterThree />
       <BackToTop />
