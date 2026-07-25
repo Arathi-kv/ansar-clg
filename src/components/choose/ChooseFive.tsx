@@ -30,8 +30,7 @@ export default function ChooseFive({ style_2  }: ChooseFiveProps) {
               </div>
             </div>
             <div className="row gx-35">
-              <div className="col-lg-4 col-md-6 wow itfadeUp" data-wow-duration=".9s"
-                data-wow-delay=".3s">
+             <div className="col-lg-6 col-md-6 wow itfadeUp" data-wow-duration=".9s" data-wow-delay=".3s" >
                 <div className="it-choose-2-item text-center mb-35">
                   <div className="it-choose-2-icon">
                     <span>
@@ -57,8 +56,7 @@ export default function ChooseFive({ style_2  }: ChooseFiveProps) {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 wow itfadeUp" data-wow-duration=".9s"
-                data-wow-delay=".5s">
+             <div className="col-lg-6 col-md-6 wow itfadeUp" data-wow-duration=".9s" data-wow-delay=".3s" >
                 <div className="it-choose-2-item text-center mb-35">
                   <div className="it-choose-2-icon">
                     <span>
@@ -86,8 +84,7 @@ export default function ChooseFive({ style_2  }: ChooseFiveProps) {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6 wow itfadeUp" data-wow-duration=".9s"
-                data-wow-delay=".7s">
+           <div className="col-lg-6 col-md-6 wow itfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                 <div className="it-choose-2-item text-center mb-35">
                   <div className="it-choose-2-icon">
                     <span>
@@ -115,9 +112,7 @@ export default function ChooseFive({ style_2  }: ChooseFiveProps) {
                   </div>
                 </div>
               </div>
-
-              <div className="col-lg-4 col-md-6 wow itfadeUp" data-wow-duration=".9s"
-                data-wow-delay=".7s">
+              <div className="col-lg-6 col-md-6 wow itfadeUp"  data-wow-duration=".9s" data-wow-delay=".3s">
                 <div className="it-choose-2-item text-center mb-35">
                   <div className="it-choose-2-icon">
                     <span>
