@@ -38,7 +38,7 @@ export default function HeroThree() {
                     <div className="row">
                       <div className="col-xxl-7 col-xl-8 col-lg-9">
                         <div className="it-slider-content">
-                          <h1 className="it-slider-title">Where Learning Meets Excellence{' '} 
+                          <h1 className="it-slider-title">Shaping Bright Futures Through Quality Education {' '} 
                             <span className="z-index-1">
                                
                               <span className="it-title-shape">
