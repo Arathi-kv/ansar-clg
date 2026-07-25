@@ -23,12 +23,16 @@ export default function ContactArea() {
                           <path d="M19.7648 32.2372C19.0902 32.8868 18.1886 33.25 17.2504 33.25C16.312 33.25 15.4104 32.8868 14.7358 32.2372C8.5586 26.2516 0.28038 19.565 4.31742 9.85746C6.5002 4.60864 11.7399 1.25 17.2504 1.25C22.7608 1.25 28.0004 4.60866 30.1832 9.85746C34.2152 19.5528 25.9572 26.2722 19.7648 32.2372Z" stroke="#ABB2C5" strokeWidth="2.5" />
                         </svg>
                       </span>
-                      <a href="#">
-                          Uppungal Road,<br />
-                          Near KSEB Sub Station,<br />
-                          Punnayurkulam P.O.<br />
-                          Thrissur Dt. Kerala – 679561
-                      </a>
+                    <a
+                      href="#"
+                      style={{ color: "#03594e", textDecoration: "none" }}
+                    >
+                      <br />
+                      Uppungal Road,<br />
+                      Near KSEB Sub Station,<br />
+                      Punnayurkulam P.O.<br />
+                      Thrissur Dt. Kerala – 679561
+                    </a>
                     </li>
                     <li>
                       <span>
@@ -39,10 +43,10 @@ export default function ContactArea() {
                         </svg>
                       </span>
                      <div>
-                    <a href="tel:+919895453399" className="d-block">
+                    <a href="tel:+919895453399" className="d-block"  style={{ color: "#03594e", textDecoration: "none" }}>
                       +91 9895 4533 99
                     </a>
-                    <a href="tel:+919845453399" className="d-block">
+                    <a href="tel:+919845453399" className="d-block" style={{ color: "#03594e", textDecoration: "none" }}>
                       +91 9845 4533 99
                     </a>
                   </div>
@@ -55,7 +59,7 @@ export default function ContactArea() {
                           <path d="M8.155 9.79932C7.51711 9.79932 7 10.3164 7 10.9543C7 11.5922 7.51711 12.1093 8.155 12.1093H20.475C21.1129 12.1093 21.63 11.5922 21.63 10.9543C21.63 10.3164 21.1129 9.79932 20.475 9.79932H8.155Z" fill="#1F2432" />
                         </svg>
                       </span>
-                        <a href="mailto:ansarcollege4women@gmail.com">ansarcollege4women@gmail.com</a>
+                        <a href="mailto:ansarcollege4women@gmail.com"  style={{ color: "#03594e", textDecoration: "none" }}>ansarcollege4women@gmail.com</a>
                     </li>
                   </ul>
                 </div>
