@@ -26006,3 +26006,11 @@ input[type=radio] {
 .wishlist-btn {
   display: none !important;
 }
+
+
+/* Large screens only */
+@media (min-width: 1400px) {
+  .it-header-menu ul li a {
+    white-space: nowrap;
+  }
+}
