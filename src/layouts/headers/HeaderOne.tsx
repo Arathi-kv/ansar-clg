@@ -92,22 +92,25 @@ export default function HeaderOne() {
           <div className="container">
             <div className="">
               <div className="row align-items-center">
-             <div className="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-8">
-                  <div className="it-header-logo d-flex align-items-center">
-                    <Link to="/" className="d-flex align-items-center text-decoration-none">
-                      <img
-                        src="assets/img/logo/logo-black.png"
-                        alt="Ansar College"
-                        className="header-logo"
-                      />
+            <div className="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-8">
+                <div className="it-header-logo d-flex align-items-center">
+                  <Link to="/" className="d-flex align-items-center text-decoration-none">
+                    {/* Main Logo */}
+                    <img
+                      src="assets/img/logo/logo-black.png"
+                      alt="Ansar College"
+                      className="header-logo"
+                    />
 
-                      <div className="header-logo-text">
-                        <h5>ANSAR COLLEGE</h5>
-                        <span>PUNNAYURKULAM</span>
-                      </div>
-                    </Link>
-                  </div>
+                    {/* Text Logo Image */}
+                    <img
+                      src="assets/img/logo/logo-text.png"
+                      alt="Ansar College Punnayurkulam"
+                      className="header-text-logo ms-2"
+                    />
+                  </Link>
                 </div>
+              </div>
               <div className="col-xxl-4 col-xl-4 d-none d-xl-block">
                   <div className="it-header-menu it-header-dropdown">
                     <nav className="it-menu-content">

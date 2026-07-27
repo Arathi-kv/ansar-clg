@@ -26014,3 +26014,26 @@ input[type=radio] {
     white-space: nowrap;
   }
 }
+
+
+
+.header-logo {
+  width: 70px; /* Adjust as needed */
+  height: auto;
+}
+
+.header-text-logo {
+  height: 45px; /* Adjust according to your text logo */
+  width: auto;
+  margin-left: 12px;
+}
+
+@media (max-width: 768px) {
+  .header-logo {
+    width: 55px;
+  }
+
+  .header-text-logo {
+    height: 35px;
+  }
+}
