@@ -7,7 +7,7 @@ export default function FooterThree() {
 
         {/* <!-- footer-area-start --> */}
         <section className="it-footer-wrap it-footer-style-2 fix">
-          <div className="it-footer-area z-index-1 pt-200 pb-10" style={{backgroundImage: `url(/assets/img/shape/footer-bg-3-1.jpg)`}}>
+          <div className="it-footer-area z-index-1 pt-130 pb-10" style={{backgroundImage: `url(/assets/img/shape/footer-bg-3-1.jpg)`}}>
             <div className="it-footer-border"><span></span></div>
             <div className="container">
               <div className="row">
