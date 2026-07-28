@@ -26007,7 +26007,6 @@ input[type=radio] {
   display: none !important;
 }
 
-
 /* Large screens only */
 @media (min-width: 1400px) {
   .it-header-menu ul li a {
