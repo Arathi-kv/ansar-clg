@@ -1,14 +1,57 @@
  
 
+import { useState } from "react";
 import NiceSelect from "@/ui/NiceSelect";
 
-
 export default function ContactFormOne() {
-  const handleSubmit = (e: React.FormEvent) => {
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Contact form submitted');
+
+    try {
+    const response = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      alert("Message sent successfully!");
+
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      });
+    } else {
+      alert("Failed to send message.");
+    }
+  } catch (error) {
+    console.error(error);
+    alert("Something went wrong.");
+  }
+};
+
+  const selectHandler = (option: any) => {
+    setFormData({
+      ...formData,
+      subject: option.text,
+    });
   };
-  const selectHandler = (e: any) => { return e; };
 
   return (
     <>
@@ -18,19 +61,40 @@ export default function ContactFormOne() {
             <div className="col-md-6">
               <div className="it-signup-input mb-40">
                 <label>First Name</label>
-                <input type="text" placeholder="Name" />
+               <input
+                type="text"
+                placeholder="Name"
+                value={formData.name}
+                onChange={(e) =>
+                  setFormData({ ...formData, name: e.target.value })
+                }
+              />
               </div>
             </div>
             <div className="col-md-6">
               <div className="it-signup-input mb-40">
                 <label>Email</label>
-                <input type="email" placeholder="Email" />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  value={formData.email}
+                  onChange={(e) =>
+                    setFormData({ ...formData, email: e.target.value })
+                  }
+                />
               </div>
             </div>
             <div className="col-md-6">
               <div className="it-signup-input mb-40">
                 <label>Phone</label>
-                <input type="text" placeholder="Phone" />
+             <input
+                type="text"
+                placeholder="Phone"
+                value={formData.phone}
+                onChange={(e) =>
+                  setFormData({ ...formData, phone: e.target.value })
+                }
+              />
               </div>
             </div>
             <div className="col-md-6">
@@ -41,15 +105,10 @@ export default function ContactFormOne() {
                     className=""
                     options={[
                       { value: "01", text: "Subject" },
-                      { value: "02", text: "Computer Science & Engineering" },
-                      { value: "03", text: "Electrical & Electronic Engineering" },
-                      { value: "04", text: "Textile Engineering" },
-                      { value: "05", text: "Pharmacy" },
-                      { value: "06", text: "Architecture" },
-                      { value: "07", text: "Law" },
-                      { value: "08", text: "Economics" },
-                      { value: "09", text: "English" },
-                      { value: "10", text: "Psychology" },
+                      { value: "02", text: "Pg Courses" },
+                      { value: "03", text: "Ug Courses" },
+                      { value: "04", text: "Higher Secondary" },
+                      { value: "05", text: "NIOS" },
                     ]}
                     defaultCurrent={0}
                     onChange={selectHandler}
@@ -63,7 +122,13 @@ export default function ContactFormOne() {
           <div className="col-12">
             <div className="it-signup-input mb-40">
               <label>Message</label>
-              <textarea placeholder="Message"></textarea>
+            <textarea
+                placeholder="Message"
+                value={formData.message}
+                onChange={(e) =>
+                  setFormData({ ...formData, message: e.target.value })
+                }
+              />
             </div>
           </div>
           <div className="col-12">
